@@ -7,6 +7,7 @@
 
 body {
     background-color: #fff;
+    overflow: auto;
 }
 
                             /* Header */
@@ -68,9 +69,9 @@ ul li a:hover {
 }
 
 .about .left {
-    height: 500px;
+    /* height: 500px; */
     width: 500px;
-   padding: 180px 18%;
+   padding: 100px 18%;
 }
 
 .about .left img {
@@ -96,7 +97,7 @@ ul li a:hover {
 }
 
 .right h2 {
-    padding: 200px 0 14px 0;
+    padding: 160px 0 14px 0;
     font-size: 47px;
 }
 
@@ -228,6 +229,7 @@ p {
     color: #ff1010;
 }
 
+
                             /* Projets .html*/
                             /* Header */
     
@@ -243,7 +245,7 @@ main {
 }
 
 main .body-content {
-    width: 50%;
+    /* width: 50%; */
 }
 
 main h2 {
@@ -390,7 +392,11 @@ main li {
 .footer-project span {
     color: #ff1010;
 }
-   
+
+                            /* Responsive Design Projet.html */
+
+                            
+
 
                             /* Contact.html */
                             /* Contact */
@@ -680,4 +686,230 @@ main li {
 
 .footer span {
     color: #ff1010;
-}     
+}
+
+                     /* Responsive Design Index.html */
+
+@media only screen and (max-width: 720px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+}
+
+.header {
+        width: 100%;
+}
+
+ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 2em;
+}
+
+.about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+}
+
+.about .left {
+        display: grid;
+        margin: auto;
+        /* padding-left: 8em; */
+}
+
+.right {
+        align-items: center;
+        text-align: center;
+        margin-top: -10em;
+        margin-bottom: -10rem;
+}
+
+.right br {
+        display: none;
+}
+
+.buttons {
+    gap: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #999;
+    margin: 2rem 2rem 0 2rem;
+}
+
+
+                         /* Responsive Design Projets.html */
+
+main {
+        margin: 2rem;
+}
+
+main .project-travel {
+        display: flex;
+        flex-direction: column;
+}
+
+main h2 {
+   text-align: center;
+   margin-top: 3rem;
+}
+
+main .column-reverse1 {
+    flex-direction: column-reverse;
+}
+
+main h3 {
+    margin: 0 1rem 1rem 1rem;
+}
+
+main i {
+    margin: 0 1rem;
+}
+
+main p {
+    margin: 0 1rem;
+}
+
+main ul {
+    margin: 0 2rem;
+   width: 100%;
+}
+
+.project-travel .travel-right img {
+    height: 25rem;
+    margin: 0 1rem;
+    width: 50%;
+    object-fit: contain;
+}
+
+.project-sunnyside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.project-sunnyside .sunnyside-left {
+    padding-right: 0;
+}
+
+.project-sunnyside .sunnyside-left li {
+    margin: 0 2rem;
+    width: 100%;
+}
+
+.project-sunnyside .sunnyside-right img {
+    height: 34.5rem;
+    width: 50%;
+    object-fit: contain;
+    margin: 0 1rem;
+}
+
+.footer-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #999;
+    margin: 17rem 2rem 0 2rem;
+}
+
+                    /* Responsive Design Contact.html */
+
+.contact {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2 {
+    margin-bottom: 2rem;
+}
+
+.right-part {
+    margin: 0 2rem;
+}
+
+.right-part .name-form {
+    flex-direction: column;
+    margin-bottom: -3rem;
+}
+
+.right-part .name-form .input-border {
+    width: 21rem;
+}
+
+.right-part .email-form {
+    flex-direction: column;
+}
+
+.right-part .email-form .input-border {
+    width: 21rem;
+}
+
+.right-part .message-form {
+    flex-direction: column;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+
+.right-part .message-form .input-border {
+    width: 21rem;
+}
+
+.message-form .btn-send {
+    margin-left: 4rem;
+}
+
+                        /* Responsive Design CV.html */
+
+.formation h2 {
+    margin-left: -4rem;
+    margin-bottom: 4rem;
+}
+
+.formation {
+    margin-bottom: -7rem;
+    width: 90%;
+}
+
+.formation .experience {
+    margin-left: -4rem;
+    margin-bottom: 4rem;
+}
+
+.formation li {
+    width: 20rem;
+}
+
+.skills {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.goals {
+    margin-left: 2rem;
+    width: 90%;
+}
+
+.interests {
+    margin: 0 2rem 0 2rem;
+    width: 90%;
+}
+
+.languages {
+    margin: 0 2rem 4rem 2rem;
+    width: 90%;
+}
+}
+
+
