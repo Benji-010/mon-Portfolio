@@ -71,17 +71,19 @@ ul li a:hover {
 .about .left {
     /* height: 500px; */
     width: 500px;
-   padding: 100px 18%;
+   padding: 150px 20% 0 20%;
 }
 
 .about .left img {
-    border-radius: 50%;
-    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 350px;
+    width: 320px;
     transition: 0.5s;
 }
 
 .about .left img:hover {
-    transform: scale(2.0);
+    transform: scale(1.0);
     cursor: pointer;
 }
 
@@ -136,7 +138,7 @@ p {
 .buttons .btn-cv:hover {
     background-color: #f1f1f1;
     transform: scale(1.1);
-    box-shadow: 5px 5px 30px;
+    box-shadow: 5px 5px 5px;
 
 }
 
@@ -156,7 +158,7 @@ p {
 .buttons .btn-projets:hover {
     background-color: #f1f1f1;
     transform: scale(1.1);
-    box-shadow: 5px 5px 30px;
+    box-shadow: 5px 5px 5px;
 }
 
 .buttons a {
@@ -180,52 +182,49 @@ p {
 .buttons .btn-contact:hover {
     background-color: #f1f1f1;
     transform: scale(1.1);
-    box-shadow: 5px 5px 30px;
+    box-shadow: 5px 5px 5px;
 }
 
                             /* Footer */
 
-.footer {
+.footer-index {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #999;
     margin: 0 170px;
-    margin-bottom: 0;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
-.footer .phone {
+.footer-index .phone {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .email {
+.footer-index .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .follow-me {
+.footer-index .follow-me {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .icons {
+.footer-index .icons {
     display: flex;
     gap: 10px;
     height: 34px;
     width: 27px;
 }
 
-.footer p {
-    margin-top: 10px;
-}
-
-.footer span {
+.footer-index span {
     color: #ff1010;
 }
 
@@ -271,6 +270,10 @@ main i {
     font-size: 18px;
 }
 
+main ul {
+    width: 95%;
+}
+
 main li {
     list-style: disc;
     font-size: 18px;
@@ -281,6 +284,7 @@ main li {
 .project-travel {
     display: flex;
     width: 100%;
+    margin: 0 4rem 0 0;
 }
 
                             /* Travel-right */
@@ -295,12 +299,11 @@ main li {
     object-fit: cover;
     border: 18px solid #dedbdb;
     height: auto;
-    width: 100%;
+    width: 25rem;
 }
 
 .project-travel .image-right1 {
-    width: 700px;
-    height: 500px;
+   transition: 0.5s;
 }
 
 .project-travel .image-right:hover {
@@ -314,24 +317,26 @@ main li {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 500px;
+    padding-top: 230px;
 }
 
 .project-sunnyside .sunnyside-right {
     position: relative;
     height: 350px;
     width: 700px;
+    margin-right: 8rem;
 }
 
 .project-sunnyside .sunnyside-right img {
     object-fit: cover;
     border: 18px solid #dedbdb;
-    width: 700px;
+    width: 25rem;
     height: auto;
 }
 
 .project-sunnyside .image-right2 {
     transition: 0.5s;
+    margin-right: 4rem;
 }
 
 .project-sunnyside .image-right2:hover {
@@ -343,7 +348,11 @@ main li {
 
 
 .project-sunnyside .sunnyside-left {
-    padding-right: 200px;
+    padding-right: 120px;
+}
+
+.project-sunnyside li {
+    width: 100%;
 }
                             
                             /* Footer-projets */
@@ -353,7 +362,7 @@ main li {
     justify-content: space-between;
     border-top: 2px solid #999;
     margin: 0 170px;
-    margin-top: 48rem;
+    margin-top: 17rem;
     margin-bottom: 2rem;
 }
 
@@ -385,18 +394,9 @@ main li {
     width: 27px;
 }
 
-.footer-project p {
-    margin-top: 10px;
-}
-
 .footer-project span {
     color: #ff1010;
 }
-
-                            /* Responsive Design Projet.html */
-
-                            
-
 
                             /* Contact.html */
                             /* Contact */
@@ -487,53 +487,49 @@ main li {
 .right-part .btn-send:hover {
     background-color: #ff1010;
     transform: scale(1.1);
-    box-shadow: 5px 5px 30px;
+    box-shadow: 5px 5px 5px;
 }
 
                             /* Footer-contact */
 
-.footer {
+.footer-contact {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #999;
     margin: 0 170px;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
 }
 
-.footer .phone {
+.footer-contact .phone {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .email {
+.footer-contact .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .follow-me {
+.footer-contact .follow-me {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .icons {
+.footer-contact .icons {
     display: flex;
     gap: 10px;
     height: 34px;
     width: 27px;
 }
 
-.footer p {
-    margin-top: 10px;
-}
-
-.footer span {
+.footer-contact span {
     color: #ff1010;
 }                 
 
@@ -643,48 +639,44 @@ main li {
     margin: 10px 0;
 }
 
-.footer {
+.footer-cv {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #999;
     margin: 0 170px;
-    margin-top: 10rem;
+    margin-top: 7rem;
     margin-bottom: 2rem;
 }
 
-.footer .phone {
+.footer-cv .phone {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .email {
+.footer-cv .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .follow-me {
+.footer-cv .follow-me {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
 }
 
-.footer .icons {
+.footer-cv .icons {
     display: flex;
     gap: 10px;
     height: 34px;
     width: 27px;
 }
 
-.footer p {
-    margin-top: 10px;
-}
-
-.footer span {
+.footer-cv span {
     color: #ff1010;
 }
 
@@ -719,6 +711,8 @@ ul {
 .about .left {
         display: grid;
         margin: auto;
+        padding-top: 25px;
+        padding-left: 45px;
         /* padding-left: 8em; */
 }
 
@@ -737,7 +731,7 @@ ul {
     gap: 1rem;
 }
 
-.footer {
+.footer-index {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -869,6 +863,15 @@ main ul {
     margin-left: 4rem;
 }
 
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #999;
+    margin: 2rem 2rem 0 2rem;
+}
+
                         /* Responsive Design CV.html */
 
 .formation h2 {
@@ -910,6 +913,13 @@ main ul {
     margin: 0 2rem 4rem 2rem;
     width: 90%;
 }
+
+.footer-cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #999;
+    margin: 2rem 2rem 0 2rem;
 }
-
-
+}
