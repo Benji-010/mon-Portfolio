@@ -203,11 +203,21 @@ p {
     margin-top: 10px;
 }
 
+.footer-index .phone a {
+    text-decoration: none;
+    color: #000;
+}
+
 .footer-index .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+}
+
+.footer-index .email a {
+    text-decoration: none;
+    color: #000;
 }
 
 .footer-index .follow-me {
@@ -373,11 +383,21 @@ main li {
     margin-top: 10px;
 }
 
+.footer-project .phone a {
+    text-decoration: none;
+    color: #000;
+}
+
 .footer-project .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+}
+
+.footer-project .email a {
+    text-decoration: none;
+    color: #000;
 }
 
 .footer-project .follow-me {
@@ -422,6 +442,11 @@ main li {
 .left-part p {
     margin-top: 14px;
     margin-bottom: 24px;
+}
+
+.left-part a {
+    text-decoration: none;
+    color: #000;
 }
 
                             /* Right-part */
@@ -508,11 +533,21 @@ main li {
     margin-top: 10px;
 }
 
+.footer-contact .phone a {
+    text-decoration: none;
+    color: #000;
+}
+
 .footer-contact .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+}
+
+.footer-contact .email a {
+    text-decoration: none;
+    color: #000;
 }
 
 .footer-contact .follow-me {
@@ -655,11 +690,21 @@ main li {
     margin-top: 10px;
 }
 
+.footer-cv .phone a {
+    text-decoration: none;
+    color: #000;
+}
+
 .footer-cv .email {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+}
+
+.footer-cv .email a {
+    text-decoration: none;
+    color: #000;
 }
 
 .footer-cv .follow-me {
